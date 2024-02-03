@@ -1,0 +1,36 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+h1,h2{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 60px;
+}
+
+h3{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 33px;
+}
+
+nav{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 33px;
+}
+
+p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;  
+}
+
+
+
+.pageContainer{
+    border: 5px solid black;
+    max-width: 1200px;
+    margin: aut;
+}
