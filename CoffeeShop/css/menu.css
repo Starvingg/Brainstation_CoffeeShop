@@ -3,17 +3,76 @@
     height: 350px;
     background-image: url("../assets/images/coffee-circle.jpg");
     background-position: center;
-    background-size: 70%;
-    /* background-size: contain; */
+    /* background-size: 70%; */
     background-repeat: no-repeat;
     border: 3px solid red;
+    background-size: cover;
 }
 
 #menu {
     text-align: center;
     color: white;
     margin: 0;
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 110px;
     background-color: #393939;
+}
+
+.drinkRibbon {
+    display: block;
+    background-color: #393939;
+}
+
+.drinkRibbon_Link{
+    text-align: center;
+    list-style-type: none;
+    color: white;
+}
+
+.hotDrinksSection {
+    background-color: #FFF0ED;
+    text-align: center;
+}
+
+.hotDrinksSection > p{
+    color: #5BACC3;
+}
+
+.hotDrinksSection > span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.coldDrinksSection {
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.coldDrinksSection > p{
+    color: #5BACC3;
+}
+
+.coldDrinksSection > span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.pastriesSection {
+    background-color: #FFF0ED;
+    text-align: center;
+}
+
+.pastriesSection > p {
+    color: #5BACC3;
+}
+
+.pastriesSection > span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
 }

@@ -13,48 +13,52 @@
 
 <body>
 
-    <nav>
-        <a href="">
-            <img src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
+    <nav class = "websiteLogo">
+        <a href="./index.html">
+            <img class="landingPageHeader_Logo" src="./assets/logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
         </a>
     
-        <h2><a href="#">nitro</a></h2>
-        <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#menu">MENU</a></li>
-            <li><a href="#shopNow">SHOP NOW</a></li>
+        <a href="./index.html"><h3>nitro</h3></a>
+
+        <ul class ="nav_WebsiteLinks">
+            <li><a href="./index.html">ABOUT</a></li>
+            <li><a href="pages/menu.html">MENU</a></li>
+            <li><a href="pages/menu.html">SHOP NOW</a></li>
         </ul>
+
     </nav>
 
-    <h1>Nitro Coffee</h1>
+    <section  class="topSectionLanding">
+        <h1>Nitro Coffee</h1>
 
-    <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-    <button>Shop Now</button>
-    <img src="" alt="coffee bag">
+        <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+        <button>SHOP NOW</button>
+        <img src="./assets/images/coffeebeans.png" alt="coffee bag">
+    </section>
     
-    <section>
+    <section class="ourProducts">
         <h2>Our Products</h2>
 
-        <img src="" alt="coffee beans">
+        <img src="./assets/images/coffeebeans.png" alt="coffee beans">
         <h3>Coffee Beans</h3>
-        <p>$18.99</p>
+        <p class = "ourProducts_Price">$18.99</p>
 
-        <img src="" alt="cold brew">
+        <img src="./assets/images/coldbrew.png" alt="cold brew">
         <h3>Cold Brew</h3>
-        <p>$4.99</p>
+        <p class = "ourProducts_Price">$4.99</p>
 
-        <img src="" alt="in-house Brew">
+        <img src="./assets/images/inhousebrew.png" alt="in-house Brew">
         <h3>In-house Brew</h3>
-        <p>$2.99</p>
+        <p class = "ourProducts_Price">$2.99</p>
         
-        <button>VIEW ALL</button>
+        <a href="./pages/menu.html"><button>Click me</button></a>
     </section>
     
-    <section>
-        <p>Get 20% off your first order with code: FirstNitro</p>
+    <section class="discountSection">
+        <p>Get 20% off your first order with code: <strong>FirstNitro</strong></p>
     </section>
 
-    <footer>
+    <footer class ="footerSection">
         <h3>Address</h3>
         
         <span>503 Broadway Penthouse</span>
@@ -62,16 +66,16 @@
         <span>New York</span>
         
         <h3>Hours</h3>
-        <span>Monday - Friday: 9am - 7pm</span>
+        <span><strong>Monday - Friday:</strong> 9am - 7pm</span>
         <br>
-        <span>Saturday - Sunday: 10am - 5pm</span>
+        <span><strong>Saturday - Sunday:</strong> 10am - 5pm</span>
         
         <div>
             <h3>Social</h3>
         </div>
-        <img src="" alt="facebook">
-        <img src="" alt="yelp">
-        <img src="" alt="instagram">
+        <a href="https://www.facebook.com"><img class = "footerSection_SocialLink" src="./assets/logos/Facebook-Icon.svg" alt="facebook"></a>
+        <a href="https://www.yelp.com"></a><img class = "footerSection_SocialLink" src="./assets/logos/Yelp-Icon.svg" alt="yelp">
+        <a href="https://www.instagram.com"></a><img class = "footerSection_SocialLink" src="./assets/logos/Instagram-Icon.svg" alt="instagram">
     </footer>
 
 </body>

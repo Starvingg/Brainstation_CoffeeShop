@@ -1,36 +1,48 @@
+.websiteLogo{
+    width: 50px;
+}
+
 body {
     font-family: 'Open Sans';
     font-weight: 400;
+    border: 5px solid black;
+    max-width: 1200px;
+    margin: auto;
 }
 
-h1,h2{
+h1,h2 {
     font-family: 'Open Sans';
     font-weight: 300;
     font-size: 60px;
 }
 
-h3{
+h3 {
     font-family: 'Open Sans';
     font-weight: 300;
     font-size: 33px;
 }
 
-nav{
+nav,a {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 33px;
+    font-size: 21px;
 }
 
-p{
+p {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;  
 }
 
+ul{
+    /* padding-inline-start: 0px; */
+}
 
-
-.pageContainer{
-    border: 5px solid black;
-    max-width: 1200px;
-    margin: aut;
+button{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 21px;
+    background-color: #5BACC3;
+    color: white;
+    border: none;
 }
