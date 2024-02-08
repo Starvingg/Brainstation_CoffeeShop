@@ -1,0 +1,140 @@
+.navigationBar{
+    background-color: #FFF0ED;
+    padding: 1.563rem;
+}
+
+.navigationBar a, .navigationBar section {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.navigationBar_List a {
+    margin-left: 20px;
+}
+
+.heroSection {
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/coffee-circle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu {
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 11.25rem;
+    height: 6.875rem;
+    background-color: #393939;
+}
+
+.drinkRibbon {
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    background-color: #393939;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.drinkRibbon_Link{
+    box-sizing: border-box;
+    list-style-type: none;
+    color: white;
+    border-left: 0.25rem solid #5BACC3;
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 1.125 rem;
+}
+
+.hotDrinksSection {
+    background-color: #FFF0ED;
+    text-align: center;
+}
+
+.hotDrinksSection > h2 {
+    margin: 0;
+}
+
+.hotDrinksSection > h3 {
+    margin: 0;
+}
+
+
+.hotDrinksSection > p{
+    color: #5BACC3;
+    margin-top: .3rem;
+    margin-bottom: 0;
+}
+
+.hotDrinksSection > span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.125 rem;
+    font-style: italic;
+
+    display: inline-block;
+    max-width: 33%;
+}
+
+.coldDrinksSection > h2 {
+    margin: 0;
+}
+
+.coldDrinksSection > h3 {
+    margin: 0;
+}
+
+.coldDrinksSection {
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.coldDrinksSection > p{
+    color: #5BACC3;
+    margin-top: .3rem;
+    margin-bottom: 0;
+}
+
+.coldDrinksSection > span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.125 rem;
+    font-style: italic;
+    display: inline-block;
+    max-width: 33%;
+}
+
+.pastriesSection > h2 {
+    margin: 0;
+}
+
+.pastriesSection > h3 {
+    margin: 0;
+}
+
+.pastriesSection {
+    background-color: #FFF0ED;
+    text-align: center;
+}
+
+.pastriesSection > p {
+    color: #5BACC3;
+    margin-top: .3rem;
+    margin-bottom: 0;
+}
+
+.pastriesSection > span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.125 rem;
+    font-style: italic;
+    display: inline-block;
+    max-width: 33%;
+}
+

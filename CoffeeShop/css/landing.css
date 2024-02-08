@@ -1,0 +1,36 @@
+.landingPageHeader{
+    background-color: #FFF0ED;
+}
+
+
+.topSectionLanding{
+    background-color: #FFF0ED;
+}
+
+.ourProducts_Price{
+    font-size: 2.063rem;
+    color: #5BACC3;
+}
+
+.discountSection{
+    background-color: #393939;
+    text-align: center;
+}
+.discountSection > p{
+    font-size: 2.813rem;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+.footerSection{
+    background-color:#FFF0ED;
+}
+
+.footerSection_SocialLink{
+    width: 3.125rem;
+}
+
+.nav_WebsiteLinks {
+    border: 3px solid red;
+}
